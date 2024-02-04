@@ -1,0 +1,26 @@
+ h1 {
+     font-size: 28px;
+ }
+
+ body {
+     margin: 0px;
+     padding: 0px;
+     background-color: #CCCCCC;
+ }
+
+ section {
+     margin-left: 20px;
+ }
+
+ p {
+     font-size: 24px;
+ }
+
+ #subtitle {
+     font-style: italic;
+ }
+
+ header>p {
+     font-style: italic;
+     font-size: smaller;
+ }
