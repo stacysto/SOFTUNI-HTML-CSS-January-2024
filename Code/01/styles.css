@@ -1,0 +1,55 @@
+/*o	Make the font-size 16px
+o	Change the line-height to 1.5
+•	Use Georgia, serif font-family for the headings
+•	Use headings from h1 to h6
+•	Create a HTML table and style it
+•	Use blockquote tag
+o	Style its left border with rgb(221,221,221) color
+o	Style its font to italic
+•	Use hr tag for the horizontal lines
+*/
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+td {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+th,
+td {
+    border: solid 1px rgb(221, 221, 221);
+}
+
+
+tr:nth-child(odd) {
+    background: rgb(241, 241, 241);
+}
+
+tr:hover {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+
+}
+
+blockquote {
+    border-left: 4px solid rgb(221, 221, 221);
+    font-style: italic;
+    padding: 20px;
+}
+blockquote > footer{
+    text-align: right;
+}

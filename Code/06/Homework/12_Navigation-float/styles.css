@@ -1,0 +1,87 @@
+/* • Use rgb(0, 102, 0) for the anchors
+• Use  for body background
+• Use rgb(255, 255, 255) for image background and rgba(0, 0, 0, 0.25) for image box shadow
+• Use font Georgia, serif for the blockquote
+• Use font Georgia, serif with size 1em/1.2 for the headings */
+
+html {
+    box-sizing: border-box;
+    }
+    *, *:before, *:after {
+    box-sizing: inherit;
+    }
+    body {
+        background-color: rgb(238, 238, 238);
+        font-family: Helvetica, sans-serif;
+        padding-left: 20px;
+        margin: 400 auto;
+    }
+    
+    header {
+        border-bottom: 2px solid rgb(243, 237, 237);
+    }
+    
+    header .site-title,
+    header nav {
+        display: inline-block;
+    }
+   
+    .top-navigation ul li {
+        display: inline;
+        padding: 0 10px;
+        
+    }
+    .top-navigation a{
+        color: blue;
+    }
+    nav {
+        margin-left: 30px;
+    }
+    
+    nav a {
+        text-decoration: none;
+        color: greenyellow;
+        padding: 1em;
+    
+    }
+    
+    
+    header .site-title a {
+        color: black;
+        font-size: 36px;
+        font-weight: 700;
+        text-decoration: none;
+    }
+ 
+    main {
+        display: inline-block;
+        max-width: 66%;
+    }
+
+    
+    aside {
+        display: inline-block;
+        margin-left: 2em;
+        width: 30%;
+        vertical-align: top;
+    }
+  
+ 
+.first-image{
+        float: right;
+    }
+    .second-image{
+        float: left;
+     }
+     blockquote {
+
+        width: 75%;
+        float: right;
+        margin-top:20px;
+        margin-bottom: 20px;
+        padding : 20px;
+        background: #0fddaf;
+        background: rgb(15, 221, 175); /* Fall-back for browsers that don't support rgba */
+        background: rgba(15, 221, 175, .15);
+        font-family: fanwood_italic-webfont;
+    }
