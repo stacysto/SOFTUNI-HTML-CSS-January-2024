@@ -1,0 +1,43 @@
+/* Requirements
+•	Body background color must be rgb(238, 238, 238)
+•	The body display property must be flex
+o	Align the items in center
+•	The entire page content must be inside section with class named container (section.container)
+•	The container display property must be flex */
+
+html {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 2em;
+    background-color: rgb(238, 238, 238);
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none ;
+}
+.container{
+    display: flex;
+}
+li img{
+    box-shadow:
+        0 0 1em 0 rgb(0, 0, 0, 0.3),
+        0 0 0.3em 0 rgb(0, 0, 0, 0.4) inset;
+}

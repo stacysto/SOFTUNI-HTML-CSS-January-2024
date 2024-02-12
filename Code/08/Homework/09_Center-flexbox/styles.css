@@ -1,0 +1,43 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 2em;
+    background-color: rgb(238, 238, 238);
+}
+
+h1 {
+    font-size: 2.8em;
+    line-height: 1;
+    margin-bottom: 0.5em;
+}
+
+div.card {
+    width: 30em;
+    height: auto;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1em;
+    padding: 2em;
+    box-shadow:
+        0 0 1em 0 rgb(0, 0, 0, 0.3),
+        0 0 0.3em 0 rgb(0, 0, 0, 0.4) inset;
+
+}
