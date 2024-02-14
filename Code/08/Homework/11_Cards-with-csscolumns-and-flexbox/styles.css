@@ -1,5 +1,3 @@
-
-
 html {
     box-sizing: border-box;
 }
@@ -19,66 +17,64 @@ body {
     background: rgb(238, 238, 238);
     padding: 2em;
     display: flex;
-  max-width: 1000px;
-  margin: 0 auto;
-    flex-direction: column;
-    /* flex-wrap: wrap; */
- 
-}
-div.cards-layout{
-    padding: 2em;
-    background-color: bisque;
-max-height: 1500px;
-    display: flex;
+    max-width: 1100px;
+    margin: 0 auto;
     flex-direction: column;
     flex-wrap: wrap;
-    align-content: space-around;
-
 }
-div.cards-layout:after{
-display: block;
+h1, h2, h3{
+    margin-top: 1em;
+}
+div.cards-layout {
+    padding: 2em;
+    gap: 2em;
+}
+
+div.cards-layout:after
+{
+    display: block;
     content: '';
     flex: 0 0 30%;
     order: 1000;
 }
-/* .card{
-    display: flex;
-    flex: 1 1 auto;
-    background: #fff;
-        max-width: 250px;
-        margin: 10px;
-        padding: 10px;
-        box-shadow:
-            0 0 1em 0 rgb(0, 0, 0, 0.3),
-            0 0 0.3em 0 rgb(0, 0, 0, 0.4) inset;
-        border-radius: 0.3em;
-        transition: all 0.3s ease-in;
-} */
 
-
-
-
-div.cards-layout .card{
+div.cards-layout .card {
     display: flex;
     flex-direction: column;
     overflow: hidden;
     flex: 0 0 30%;
-    max-width:300px;
-    margin-bottom:2em;
+    max-width: 300px;
     background-color: white;
     padding: 10px;
     box-shadow: 0 0 10px gray;
 }
-/* 
-margin-bottom: 2em;
-background: #FFF;
-border-radius: 0.3em;
-box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
-display: flex;
-flex-direction: column;
-overflow: hidden; */
+
 div.cards-layout div img {
     display: block;
     width: 100%;
     height: auto;
-} 
+}
+
+div.masonry {
+    max-height: 1500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+div.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer{
+    display: block;
+    border-top: 1px solid rgba(0, 0, 0, 0.438);
+}
+section > p{
+    margin: 1em 0;
+}
+
+
