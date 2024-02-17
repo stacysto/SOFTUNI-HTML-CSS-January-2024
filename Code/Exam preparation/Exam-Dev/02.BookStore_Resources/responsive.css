@@ -1,0 +1,145 @@
+@media (max-width: 600px) {
+    .navbar-link {
+        display: none;
+
+    }
+
+    body {
+        font-size: 12px;
+    }
+    .home-navbar{
+        position: static;
+        margin-bottom: 20px;
+    }
+    .home-container {
+        padding-top: 0;
+    }
+
+    .home-header {
+        padding: 12px 0;
+    }
+
+    .Heading-2 {
+        font-size: 21px;
+        line-height: 1em;
+    }
+
+    .section-heading-section-heading {
+        margin-bottom: 30px;
+    }
+    .section-heading-text1{
+        line-height: 1em;
+    }
+    .max-width-container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .home-cards-container {
+        grid-gap: 10px;
+        justify-content: space-around;
+        width: auto;
+    }
+    .category-card-category-card{
+
+        flex: 1 1 auto;
+       
+    }
+    .category-card-image {
+        min-width: 190px;
+        height: auto;
+        aspect-ratio: 1/1;
+        
+    }
+
+    .section-container {
+
+        flex-direction: column;
+        padding-top: 10px;
+
+    }
+
+    .home-content {
+        margin: 27px 0;
+    }
+
+    .home-btn {
+        margin-bottom: 20px;
+    }
+
+    .home-text30 {
+        width: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .home-image6 {
+        width: 100%;
+        height: auto;
+    }
+
+    .home-container07 {
+        margin-top: 40px;
+    }
+
+    .blog-post-card-blog-post-card {
+        max-width: 100%;
+    }
+
+    .home-footer1 {
+        flex-direction: column;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-left: 15px;
+    }
+
+    .home-container09 {
+        order: 1000;
+    }
+
+    .home-links-container {
+        flex-direction: column;
+        grid-gap: 20px
+    }
+
+    .home-text36 {
+        margin-top: 15px;
+    }
+
+    .home-text38,
+    .home-text45,
+    .home-text51 {
+        margin-bottom: 15px;
+    }
+
+    .home-text39,
+    .home-text40,
+    .home-text41,
+    .home-text42,
+    .home-text43,
+    .home-text44,
+    .home-text46,
+    .home-text50,
+    .home-text52,
+    .home-text53,
+    .home-text54,
+    .home-text55 {
+        margin-bottom: 5px;
+    }
+
+    .home-main {
+        padding-bottom: 20px;
+    }
+
+    .home-text23 {
+        margin-bottom: 10px;
+    }
+
+    .blog-post-card-text {
+        font-size: 20px;
+    }
+
+    .blog-post-card-text {
+        font-size: 15px;
+    }
+}
