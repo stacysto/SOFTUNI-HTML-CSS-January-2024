@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+
+    font-family: "Inter";
+    font-size: 12.3px;
+
+}
+
+body {
+    padding: 2em;
+
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+article {
+    display: flex;
+    max-width: 1060px;
+    margin: 0 auto;
+    background-color: #85DCFF;
+    border: 4px solid black;
+    padding: 5em 2.75em;
+    gap: 2em;
+}
+
+article header h2 {
+    font-size: 2.75em;
+    color: black;
+    margin-bottom: 0.6em;
+}
+
+article .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1 1 auto;
+}
+
+article section p {
+    line-height: 1.2;
+    margin-bottom: 1.6em;
+}
+
+article .buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1em;
+
+}
+
+article .button {
+    display: block;
+
+    border-radius: 0.2em;
+    padding: 1.3em 2em;
+    text-decoration: none;
+    color: black;
+}
+
+article .button.learn-more {
+    background-color: white;
+    border: 0.20em solid white;
+}
+
+article .button.get-started {
+    background-color: #42AA59;
+    border: 0.20em solid black;
+}
+
+article .button.get-started:hover {
+    background-color: black;
+    color: #fff;
+}
+
+article .media {
+    flex: 0 0 360px;
+    box-shadow: 5px 3px 10px black;
+}

@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 18px/1.5 "Karla", sans-serif;
+}
+
+body {
+    background-image: url('images/poster.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+    
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Cormorant Infant";
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.site-section.site-banner h2 {
+    font-size: 90px;
+    font-weight: bold;
+    line-height: 1.26;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.site-section.site-banner p {
+
+    font-size: 1.2em;
+    text-align: center; 
+    
+}
+.header-text{
+    
+
+}
+.site-section.site-banner {
+    padding-bottom: 12em;
+}
+
+.site-section.site-banner .container {
+    color: #fff;
+}
+
+.site-section {
+    padding: 2em;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.site-header nav ul {
+    display: flex;
+}
+
+.site-header nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.site-header nav li {
+    list-style: none outside;
+    padding: 0 0.5em
+}
+
+.site-title a {
+    display: block;
+    width: 130px;
+    height: 110px;
+    overflow: hidden;
+    text-indent: -200vw;
+    background-image: url('images/logo.webp');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.container h2{
+    font-size: 45px;
+    text-align: center;
+    line-height: 1.2;
+    padding-bottom: 0.5em;
+}
+.site-section.testimonials,
+.site-section.articles {
+    background: #F8F0E9;
+}
+.site-section.support,
+.site-section.action {
+    background: #E14747;
+    color: #fff;
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.customer-quote{
+    font-family: "Cormorant Infant";
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 1;
+    font-style: italic;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+.container .title{
+    font-size: 30px;
+    
+    text-align: center;
+    padding-bottom: 1em;
+}
+.site-section.support p{
+    text-align: center;
+}
+body > section.site-section.articles > div{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.article-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article-container .article-media {
+    display: block;
+    width: 50%;
+    padding-bottom: 2em;
+
+}
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+section.site-section.articles .article-content > p{
+    max-width: 50%;
+    padding-bottom: 2em;
+}
+
+
+.button-container{
+display: flex;
+}
+section.site-section.articles .buttons a.button
+
+ {
+    display: inline-block;
+    background-color: #fff;
+    border: 2px solid black;
+    border-radius: 8px;
+    color: black;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    margin: 2em 0;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+body > section.site-section.articles > div > div.buttons{
+    /* max-width: 50%; */
+    align-items: center;
+}
+.read-more{
+    align-self: start;
+    position: relative;
+    right: -280px;
+}
+
+.read-all-articles{
+    align-self: center;
+}
+
+section.site-section.action h2{
+    padding-bottom: 1em;
+}
+body > section.site-section.action > div > p{
+    padding-bottom: 0.7em;
+}
+section.site-section.action a{
+    display: inline-block;
+    background-color: #FAD87A;
+    border: 2px solid #FAD87A;
+    border-radius: 50px;
+    color: black;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    margin: 2em 0;
+    
+}
+body > section.site-section.action > div{
+    text-align: center;
+}
+.site-footer {
+    background-color: #352B2A;
+    color: #fff;
+}
+body > footer > p.footer-copyright{
+    color: darkgrey;
+    font-size: 14px;
+}
+body > footer > p.footer-info{
+    font-size: 16px;
+}
+
+.site-footer-logo a {
+    display: block;
+    width: 80px;
+    height: 110px;
+    overflow: hidden;
+    text-indent: -200vw;
+    background-image: url('images/logo.webp');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}y

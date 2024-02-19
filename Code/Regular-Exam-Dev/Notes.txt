@@ -1,0 +1,2 @@
+Screen resolution: 3840 x 2160
+Scale: 150%
